@@ -1,0 +1,17 @@
+##########################
+# UnReal Specific Excludes
+##########################
+*/Intermediate
+*/Saved
+*/Saved/*
+*/Binaries
+*/Build
+*/DerivedDataCache
+*.uasset
+BuildingEscape/Content/StarterContent/
+*.iph
+##########################
+# Visual Studuis Excludes
+#########################
+*.VC.db
+
