@@ -1,16 +1,32 @@
 ##########################
 # UnReal Specific Excludes
 ##########################
-*/Intermediate
-*/Saved
-*/Binaries
-*/Build
-*/DerivedDataCache
+/Intermediate/*
+/Saved/*
+/Binaries/*
+/Build/*
+/DerivedDataCache/*
 *.uasset
-BuildingEscape/Content/StarterContent/
 *.iph
 ##########################
 # Visual Studuis Excludes
 #########################
 *.VC.db
+*.ipch
 
+ Binaries
+ DerivedDataCache
+ Intermediate
+ Saved
+ *.VC.db
+ *.opensdf
+ *.opendb
+ *.sdf
+ *.sln
+ *.suo
+ /*.suo
+ *.xcodeproj
+ *.xcworkspace
+
+ Content/*_BuiltData.uasset
+ Build/*
